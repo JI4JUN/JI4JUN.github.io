@@ -1,4 +1,4 @@
-# @jaylenchan/blog
+# @jun/blog
 
 Blog
 
