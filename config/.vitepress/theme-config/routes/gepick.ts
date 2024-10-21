@@ -21,35 +21,35 @@ export const gepickSidebar: DefaultTheme.Config['sidebar'] = {
             ],
             collapsed: true,
         },
-        // {
-        //   text: '编辑器',
-        //   items: [
-        //     {
-        //       text: '选择服务实现',
-        //       link: editor("ed1")
-        //     },
-        //   ],
-        //   collapsed: true
-        // },
-        // {
-        //   text: '服务端',
-        //   items: [
-        //     {
-        //       text: 'nestjs',
-        //       link: server('ed1')
-        //     },
-        //   ],
-        //   collapsed: true
-        // },
-        // {
-        //   text: '工程探索',
-        //   items: [
-        //     {
-        //       text: 'Gepick：探索VSCode工程',
-        //       link: explore('ed1')
-        //     },
-        //   ],
-        //   collapsed: true
-        // },
+        {
+            text: '编辑器',
+            items: [
+                {
+                    text: '选择服务实现',
+                    link: editor('ed1'),
+                },
+            ],
+            collapsed: true,
+        },
+        {
+            text: '服务端',
+            items: [
+                {
+                    text: 'nestjs',
+                    link: server('ed1'),
+                },
+            ],
+            collapsed: true,
+        },
+        {
+            text: '工程探索',
+            items: [
+                {
+                    text: 'Gepick：探索VSCode工程',
+                    link: explore('ed1'),
+                },
+            ],
+            collapsed: true,
+        },
     ],
 };
