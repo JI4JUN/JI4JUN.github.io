@@ -1,4 +1,6 @@
-import { DefaultTheme, LocaleSpecificConfig } from 'vitepress';
+import { DefaultTheme, LocaleSpecificConfig } from "vitepress";
 
-export const title: LocaleSpecificConfig<DefaultTheme.Config>['title'] = 'jaylenchan'
-export const description: LocaleSpecificConfig<DefaultTheme.Config>['description'] = 'blog'
+export const title: LocaleSpecificConfig<DefaultTheme.Config>["title"] =
+  "JI4JUN";
+export const description: LocaleSpecificConfig<DefaultTheme.Config>["description"] =
+  "blog";

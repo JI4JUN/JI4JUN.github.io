@@ -1,16 +1,16 @@
 ---
-title: jaylenchan
+title: ji4jun
 titleTemplate: 首页
 
 layout: home
 
 hero:
-  name: Jaylenchan's Blog
+  name: JI4JUN's Blog
   text: 探索、研究、分享
   tagline: 探索、研究、分享碎片化、结构化、体系化的技术内容。
   image:
-    src: /svgs/avatar.svg
-    alt: jaylenchan
+    src: /images/avatar.png
+    alt: JI4JUN
 
 features:
   - icon: 🚀

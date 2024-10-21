@@ -7,7 +7,7 @@ showComment: false
 ---
 
 <script lang="ts" setup>
-import Tags from '@jaylenchan/theme/markdown/components/Tags.vue'
+import Tags from '@ji4jun/theme/markdown/components/Tags.vue'
 </script>
 
 <ClientOnly>

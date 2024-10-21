@@ -11,11 +11,15 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "paths": {
-      "@jaylenchan/config/*": [
+      "@ji4jun/config/*": [
         "./config/*"
       ],
-      "@jaylenchan/docs/*": ["./packages/docs/src/*"],
-      "@jaylenchan/theme/*": ["./packages/theme/src/*"]
+      "@ji4jun/docs/*": [
+        "./packages/docs/src/*"
+      ],
+      "@ji4jun/theme/*": [
+        "./packages/theme/src/*"
+      ]
     },
     "resolveJsonModule": true,
     "allowArbitraryExtensions": true,

@@ -1,3 +1,3 @@
-import Theme from '@jaylenchan/theme'
+import Theme from "@ji4jun/theme";
 
-export default Theme
+export default Theme;
