@@ -60,6 +60,19 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     collapsed: true,
                 },
                 {
+                    text: 'Binary Search',
+                    items: [
+                        {
+                            text: '209 Minimum Size Subarray Sum',
+                            link: solutions(
+                                Question.MinimumSizeSubarraySum.title,
+                                Question.MinimumSizeSubarraySum.topic
+                            ),
+                        },
+                    ],
+                    collapsed: true,
+                },
+                {
                     text: 'Backtracking',
                     items: [
                         {

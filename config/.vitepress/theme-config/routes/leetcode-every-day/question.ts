@@ -2,6 +2,7 @@ enum DataStructures {
     HeapOrPriorityQueue = 'Heap-Or-Priority-Queue',
 }
 enum Algorithms {
+    BinarySearch = 'Binary-Search',
     Backtracking = 'Backtracking',
 }
 
@@ -9,6 +10,10 @@ export class Question {
     public static readonly FindKPairswithSmallestSums = new Question(
         '373-Find-K-Pairs-with-Smallest-Sums',
         DataStructures.HeapOrPriorityQueue
+    );
+    public static readonly MinimumSizeSubarraySum = new Question(
+        '209-Minimum-Size-Subarray-Sum',
+        Algorithms.BinarySearch
     );
     public static readonly PalindromePartitioning = new Question(
         '131-Palindrome-Partitioning',
