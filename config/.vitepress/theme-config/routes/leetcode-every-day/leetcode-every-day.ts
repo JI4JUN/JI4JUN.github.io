@@ -1,11 +1,6 @@
 import { DefaultTheme } from 'vitepress';
 import { Question } from './question';
 
-enum Questions {
-    FindKPairswithSmallestSums = '373-Find-K-Pairs-with-Smallest-Sums',
-    PalindromePartitioning = '131-Palindrome-Partitioning',
-}
-
 export const leetcodeEveryDay = (subPath: string) =>
     '/projects/leetcode-every-day' + subPath;
 
@@ -46,6 +41,19 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
         {
             text: 'Solutions',
             items: [
+                {
+                    text: 'Hash Table',
+                    items: [
+                        {
+                            text: '380 Insert Delete GetRandom O(1)',
+                            link: solutions(
+                                Question.InsertDeleteGetRandomO1.title,
+                                Question.InsertDeleteGetRandomO1.topic
+                            ),
+                        },
+                    ],
+                    collapsed: true,
+                },
                 {
                     text: 'Heap/Priority Queue',
                     items: [

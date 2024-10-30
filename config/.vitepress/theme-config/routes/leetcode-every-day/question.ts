@@ -1,4 +1,5 @@
 enum DataStructures {
+    HashTable = 'Hash-Table',
     HeapOrPriorityQueue = 'Heap-Or-Priority-Queue',
 }
 enum Algorithms {
@@ -7,6 +8,10 @@ enum Algorithms {
 }
 
 export class Question {
+    public static readonly InsertDeleteGetRandomO1 = new Question(
+        '380-Insert-Delete-GetRandom-O(1)',
+        DataStructures.HashTable
+    );
     public static readonly FindKPairswithSmallestSums = new Question(
         '373-Find-K-Pairs-with-Smallest-Sums',
         DataStructures.HeapOrPriorityQueue
