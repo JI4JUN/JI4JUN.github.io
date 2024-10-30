@@ -63,6 +63,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     text: 'Binary Search',
                     items: [
                         {
+                            text: '74 Search a 2D Matrix',
+                            link: solutions(
+                                Question.Searcha2DMatrix.title,
+                                Question.Searcha2DMatrix.topic
+                            ),
+                        },
+                        {
                             text: '209 Minimum Size Subarray Sum',
                             link: solutions(
                                 Question.MinimumSizeSubarraySum.title,

@@ -11,6 +11,10 @@ export class Question {
         '373-Find-K-Pairs-with-Smallest-Sums',
         DataStructures.HeapOrPriorityQueue
     );
+    public static readonly Searcha2DMatrix = new Question(
+        '74-Search-a-2D-Matrix',
+        Algorithms.BinarySearch
+    );
     public static readonly MinimumSizeSubarraySum = new Question(
         '209-Minimum-Size-Subarray-Sum',
         Algorithms.BinarySearch
