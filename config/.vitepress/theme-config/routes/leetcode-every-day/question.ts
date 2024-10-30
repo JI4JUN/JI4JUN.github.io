@@ -8,6 +8,14 @@ enum Algorithms {
 }
 
 export class Question {
+    public static readonly ValidSudoku = new Question(
+        '36-Valid-Sudoku',
+        DataStructures.HashTable
+    );
+    public static readonly IntersectionofTwoArrays = new Question(
+        '349-Intersection-of-Two-Arrays',
+        DataStructures.HashTable
+    );
     public static readonly InsertDeleteGetRandomO1 = new Question(
         '380-Insert-Delete-GetRandom-O(1)',
         DataStructures.HashTable

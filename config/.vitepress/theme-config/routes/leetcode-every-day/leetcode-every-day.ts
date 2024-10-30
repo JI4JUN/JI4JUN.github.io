@@ -45,6 +45,20 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     text: 'Hash Table',
                     items: [
                         {
+                            text: '36 Valid Sudoku',
+                            link: solutions(
+                                Question.ValidSudoku.title,
+                                Question.ValidSudoku.topic
+                            ),
+                        },
+                        {
+                            text: '349 Intersection of Two Arrays',
+                            link: solutions(
+                                Question.IntersectionofTwoArrays.title,
+                                Question.IntersectionofTwoArrays.topic
+                            ),
+                        },
+                        {
                             text: '380 Insert Delete GetRandom O(1)',
                             link: solutions(
                                 Question.InsertDeleteGetRandomO1.title,
