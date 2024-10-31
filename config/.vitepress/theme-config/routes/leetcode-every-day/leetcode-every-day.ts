@@ -69,6 +69,19 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     collapsed: true,
                 },
                 {
+                    text: 'Linked List',
+                    items: [
+                        {
+                            text: '146 LRU Cache',
+                            link: solutions(
+                                Question.LRUCache.title,
+                                Question.LRUCache.topic
+                            ),
+                        },
+                    ],
+                    collapsed: true,
+                },
+                {
                     text: 'Heap/Priority Queue',
                     items: [
                         {
