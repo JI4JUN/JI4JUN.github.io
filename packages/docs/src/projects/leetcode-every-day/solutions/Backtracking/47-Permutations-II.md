@@ -1,8 +1,18 @@
+---
+publish: true
+date: July 2, 2024 2:28 PM
+title: 47 Permutations II
+project: leetcode-every-day
+tags:
+ - Solutions
+---
+
 # 47 Permutations II
 
-Created: July 2, 2024 2:28 PM
-Difficulty: Medium
-Topics: Array, Backtracking
+Created: July 2, 2024 2:28 PM<br>
+Difficulty: Medium<br>
+Topics: Array, Backtracking<br>
+Status: Done<br>
 
 ## 📖Description
 

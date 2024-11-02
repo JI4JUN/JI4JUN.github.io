@@ -50,6 +50,10 @@ export class Question {
         Algorithms.BinarySearch
     );
     // ************************** Backtracking **************************
+    public static readonly Permutations = new Question(
+        '46-Permutations',
+        Algorithms.Backtracking
+    );
     public static readonly PermutationsII = new Question(
         '47-Permutations-II',
         Algorithms.Backtracking
