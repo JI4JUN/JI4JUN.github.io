@@ -54,6 +54,10 @@ export class Question {
         '22-Generate-Parentheses',
         Algorithms.Backtracking
     );
+    public static readonly SudokuSolver = new Question(
+        '37-Sudoku-Solver',
+        Algorithms.Backtracking
+    );
     public static readonly Permutations = new Question(
         '46-Permutations',
         Algorithms.Backtracking

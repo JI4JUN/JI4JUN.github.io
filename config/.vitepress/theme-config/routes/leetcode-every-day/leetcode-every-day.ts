@@ -146,6 +146,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                             ),
                         },
                         {
+                            text: '37 Sudoku Solver',
+                            link: solutions(
+                                Question.SudokuSolver.title,
+                                Question.SudokuSolver.topic
+                            ),
+                        },
+                        {
                             text: '46 Permutations',
                             link: solutions(
                                 Question.Permutations.title,
