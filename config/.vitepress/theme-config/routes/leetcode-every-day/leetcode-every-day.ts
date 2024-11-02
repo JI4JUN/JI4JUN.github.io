@@ -139,6 +139,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     text: 'Backtracking',
                     items: [
                         {
+                            text: '22 Generate Parentheses',
+                            link: solutions(
+                                Question.GenerateParentheses.title,
+                                Question.GenerateParentheses.topic
+                            ),
+                        },
+                        {
                             text: '46 Permutations',
                             link: solutions(
                                 Question.Permutations.title,
