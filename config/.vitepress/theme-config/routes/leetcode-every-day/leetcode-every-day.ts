@@ -139,6 +139,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     text: 'Backtracking',
                     items: [
                         {
+                            text: '47 Permutations II',
+                            link: solutions(
+                                Question.PermutationsII.title,
+                                Question.PermutationsII.topic
+                            ),
+                        },
+                        {
                             text: '131 Palindrome Partitioning',
                             link: solutions(
                                 Question.PalindromePartitioning.title,
