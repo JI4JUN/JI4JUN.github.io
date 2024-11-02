@@ -5,12 +5,14 @@ enum DataStructures {
     Stack = 'Stack',
 }
 enum Algorithms {
+    SlidingWindow = 'Sliding-Window',
     BinarySearch = 'Binary-Search',
     Backtracking = 'Backtracking',
 }
 
 export class Question {
     // ************************** DataStructures **************************
+
     // ************************** Hash Table **************************
     public static readonly ValidSudoku = new Question(
         '36-Valid-Sudoku',
@@ -24,31 +26,43 @@ export class Question {
         '380-Insert-Delete-GetRandom-O(1)',
         DataStructures.HashTable
     );
+
     // ************************** Linked List **************************
     public static readonly LRUCache = new Question(
         '146-LRU-Cache',
         DataStructures.LinkedList
     );
+
     // ************************** Heap/Priority Queue **************************
     public static readonly FindKPairswithSmallestSums = new Question(
         '373-Find-K-Pairs-with-Smallest-Sums',
         DataStructures.HeapOrPriorityQueue
     );
+
     // ************************** Stack **************************
     public static readonly MinStack = new Question(
         '155-Min-Stack',
         DataStructures.Stack
     );
+
     // ************************** Algorithms **************************
-    // ************************** Binary Search **************************
-    public static readonly Searcha2DMatrix = new Question(
+
+    // ************************** Sliding Window **************************
+    public static readonly FruitIntoBaskets = new Question(
         '74-Search-a-2D-Matrix',
         Algorithms.BinarySearch
+    );
+
+    // ************************** Binary Search **************************
+    public static readonly Searcha2DMatrix = new Question(
+        '904-Fruit-Into-Baskets',
+        Algorithms.SlidingWindow
     );
     public static readonly MinimumSizeSubarraySum = new Question(
         '209-Minimum-Size-Subarray-Sum',
         Algorithms.BinarySearch
     );
+
     // ************************** Backtracking **************************
     public static readonly GenerateParentheses = new Question(
         '22-Generate-Parentheses',

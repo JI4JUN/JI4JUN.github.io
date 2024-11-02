@@ -42,6 +42,7 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
             text: 'Solutions',
             items: [
                 // ************************** DataStructures **************************
+
                 // ************************** Hash Table **************************
                 {
                     text: 'Hash Table',
@@ -70,6 +71,7 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     ],
                     collapsed: true,
                 },
+
                 // ************************** Linked List **************************
                 {
                     text: 'Linked List',
@@ -84,6 +86,7 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     ],
                     collapsed: true,
                 },
+
                 // ************************** Heap/Priority Queue **************************
                 {
                     text: 'Heap/Priority Queue',
@@ -98,6 +101,7 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     ],
                     collapsed: true,
                 },
+
                 // ************************** Stack **************************
                 {
                     text: 'Stack',
@@ -112,7 +116,23 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     ],
                     collapsed: true,
                 },
+
                 // ************************** Algorithms **************************
+
+                // ************************** Sliding Window **************************
+                {
+                    text: 'Sliding Window',
+                    items: [
+                        {
+                            text: '209 Minimum Size Subarray Sum',
+                            link: solutions(
+                                Question.MinimumSizeSubarraySum.title,
+                                Question.MinimumSizeSubarraySum.topic
+                            ),
+                        },
+                    ],
+                    collapsed: true,
+                },
                 // ************************** Binary Search **************************
                 {
                     text: 'Binary Search',
@@ -134,6 +154,7 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     ],
                     collapsed: true,
                 },
+
                 // ************************** Backtracking **************************
                 {
                     text: 'Backtracking',

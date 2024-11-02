@@ -1,8 +1,18 @@
+---
+publish: true
+date: July 12, 2024 5:54 PM
+title: 37 Sudoku Solver
+project: leetcode-every-day
+tags:
+ - Solutions
+---
+
 # 37 Sudoku Solver
 
-Created: July 12, 2024 5:54 PM
-SelDifficultyect: Hard
-Topics: Backtracking, Hash Table
+Created: July 12, 2024 5:54 PM<br>
+SelDifficultyect: Hard<br>
+Topics: Backtracking, Hash Table<br>
+Status: Done<br>
 
 ## 📖Description
 
