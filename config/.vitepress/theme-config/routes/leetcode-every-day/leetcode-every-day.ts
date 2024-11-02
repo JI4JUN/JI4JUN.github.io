@@ -41,6 +41,8 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
         {
             text: 'Solutions',
             items: [
+                // ************************** DataStructures **************************
+                // ************************** Hash Table **************************
                 {
                     text: 'Hash Table',
                     items: [
@@ -68,6 +70,7 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     ],
                     collapsed: true,
                 },
+                // ************************** Linked List **************************
                 {
                     text: 'Linked List',
                     items: [
@@ -81,6 +84,7 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     ],
                     collapsed: true,
                 },
+                // ************************** Heap/Priority Queue **************************
                 {
                     text: 'Heap/Priority Queue',
                     items: [
@@ -94,6 +98,22 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     ],
                     collapsed: true,
                 },
+                // ************************** Stack **************************
+                {
+                    text: 'Stack',
+                    items: [
+                        {
+                            text: '155-Min-Stack',
+                            link: solutions(
+                                Question.MinStack.title,
+                                Question.MinStack.topic
+                            ),
+                        },
+                    ],
+                    collapsed: true,
+                },
+                // ************************** Algorithms **************************
+                // ************************** Binary Search **************************
                 {
                     text: 'Binary Search',
                     items: [
@@ -114,6 +134,7 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     ],
                     collapsed: true,
                 },
+                // ************************** Backtracking **************************
                 {
                     text: 'Backtracking',
                     items: [

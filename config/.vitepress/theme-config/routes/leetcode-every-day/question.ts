@@ -2,6 +2,7 @@ enum DataStructures {
     HashTable = 'Hash-Table',
     LinkedList = 'Linked-List',
     HeapOrPriorityQueue = 'Heap-Or-Priority-Queue',
+    Stack = 'Stack',
 }
 enum Algorithms {
     BinarySearch = 'Binary-Search',
@@ -9,6 +10,8 @@ enum Algorithms {
 }
 
 export class Question {
+    // ************************** DataStructures **************************
+    // ************************** Hash Table **************************
     public static readonly ValidSudoku = new Question(
         '36-Valid-Sudoku',
         DataStructures.HashTable
@@ -21,14 +24,23 @@ export class Question {
         '380-Insert-Delete-GetRandom-O(1)',
         DataStructures.HashTable
     );
+    // ************************** Linked List **************************
     public static readonly LRUCache = new Question(
         '146-LRU-Cache',
         DataStructures.LinkedList
     );
+    // ************************** Heap/Priority Queue **************************
     public static readonly FindKPairswithSmallestSums = new Question(
         '373-Find-K-Pairs-with-Smallest-Sums',
         DataStructures.HeapOrPriorityQueue
     );
+    // ************************** Stack **************************
+    public static readonly MinStack = new Question(
+        '155-Min-Stack',
+        DataStructures.Stack
+    );
+    // ************************** Algorithms **************************
+    // ************************** Binary Search **************************
     public static readonly Searcha2DMatrix = new Question(
         '74-Search-a-2D-Matrix',
         Algorithms.BinarySearch
@@ -37,6 +49,7 @@ export class Question {
         '209-Minimum-Size-Subarray-Sum',
         Algorithms.BinarySearch
     );
+    // ************************** Backtracking **************************
     public static readonly PalindromePartitioning = new Question(
         '131-Palindrome-Partitioning',
         Algorithms.Backtracking
