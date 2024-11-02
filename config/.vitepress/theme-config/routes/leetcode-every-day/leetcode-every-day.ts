@@ -98,6 +98,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                                 Question.LRUCache.topic
                             ),
                         },
+                        {
+                            text: '206 Reverse Linked List',
+                            link: solutions(
+                                Question.ReverseLinkedList.title,
+                                Question.ReverseLinkedList.topic
+                            ),
+                        },
                     ],
                     collapsed: true,
                 },

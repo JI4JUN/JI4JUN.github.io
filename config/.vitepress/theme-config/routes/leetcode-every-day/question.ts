@@ -39,6 +39,10 @@ export class Question {
         '146-LRU-Cache',
         DataStructures.LinkedList
     );
+    public static readonly ReverseLinkedList = new Question(
+        '206-Reverse-Linked-List',
+        DataStructures.LinkedList
+    );
 
     // ************************** Heap/Priority Queue **************************
     public static readonly FindKPairswithSmallestSums = new Question(
