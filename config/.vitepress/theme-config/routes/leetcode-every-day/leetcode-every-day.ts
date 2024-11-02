@@ -124,10 +124,17 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     text: 'Sliding Window',
                     items: [
                         {
-                            text: '209 Minimum Size Subarray Sum',
+                            text: '76 Minimum Window Substring',
                             link: solutions(
-                                Question.MinimumSizeSubarraySum.title,
-                                Question.MinimumSizeSubarraySum.topic
+                                Question.MinimumWindowSubstring.title,
+                                Question.MinimumWindowSubstring.topic
+                            ),
+                        },
+                        {
+                            text: '904 Fruit Into Baskets',
+                            link: solutions(
+                                Question.Searcha2DMatrix.title,
+                                Question.Searcha2DMatrix.topic
                             ),
                         },
                     ],

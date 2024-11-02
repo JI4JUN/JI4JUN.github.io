@@ -48,15 +48,19 @@ export class Question {
     // ************************** Algorithms **************************
 
     // ************************** Sliding Window **************************
-    public static readonly FruitIntoBaskets = new Question(
-        '74-Search-a-2D-Matrix',
-        Algorithms.BinarySearch
+    public static readonly MinimumWindowSubstring = new Question(
+        '76-Minimum-Window-Substring',
+        Algorithms.SlidingWindow
     );
-
-    // ************************** Binary Search **************************
     public static readonly Searcha2DMatrix = new Question(
         '904-Fruit-Into-Baskets',
         Algorithms.SlidingWindow
+    );
+
+    // ************************** Binary Search **************************
+    public static readonly FruitIntoBaskets = new Question(
+        '74-Search-a-2D-Matrix',
+        Algorithms.BinarySearch
     );
     public static readonly MinimumSizeSubarraySum = new Question(
         '209-Minimum-Size-Subarray-Sum',
