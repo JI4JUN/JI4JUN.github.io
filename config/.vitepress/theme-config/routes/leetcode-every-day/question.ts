@@ -39,6 +39,10 @@ export class Question {
         '146-LRU-Cache',
         DataStructures.LinkedList
     );
+    public static readonly IntersectionofTwoLinkedLists = new Question(
+        '160-Intersection-of-Two-Linked-Lists',
+        DataStructures.LinkedList
+    );
     public static readonly ReverseLinkedList = new Question(
         '206-Reverse-Linked-List',
         DataStructures.LinkedList

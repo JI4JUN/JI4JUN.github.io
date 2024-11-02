@@ -99,6 +99,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                             ),
                         },
                         {
+                            text: '160 Intersection of Two Linked Lists',
+                            link: solutions(
+                                Question.IntersectionofTwoLinkedLists.title,
+                                Question.IntersectionofTwoLinkedLists.topic
+                            ),
+                        },
+                        {
                             text: '206 Reverse Linked List',
                             link: solutions(
                                 Question.ReverseLinkedList.title,

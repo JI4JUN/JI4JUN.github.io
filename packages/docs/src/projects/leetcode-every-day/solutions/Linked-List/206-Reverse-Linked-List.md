@@ -1,8 +1,18 @@
+---
+publish: true
+date: July 23, 2024 2:40 PM
+title: 206 Reverse Linked List
+project: leetcode-every-day
+tags:
+ - Solutions
+---
+
 # 206 Reverse Linked List
 
-Created: July 23, 2024 2:40 PM
-Difficulty: Easy
-Topics: Linked List, Recursion
+Created: July 23, 2024 2:40 PM<br>
+Difficulty: Easy<br>
+Topics: Linked List, Recursion<br>
+Status: Done<br>
 
 ## 📖Description
 
