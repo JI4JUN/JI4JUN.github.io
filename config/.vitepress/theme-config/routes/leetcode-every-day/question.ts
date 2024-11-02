@@ -62,6 +62,10 @@ export class Question {
         '47-Permutations-II',
         Algorithms.Backtracking
     );
+    public static readonly NQueens = new Question(
+        '51-N-Queens',
+        Algorithms.Backtracking
+    );
     public static readonly PalindromePartitioning = new Question(
         '131-Palindrome-Partitioning',
         Algorithms.Backtracking

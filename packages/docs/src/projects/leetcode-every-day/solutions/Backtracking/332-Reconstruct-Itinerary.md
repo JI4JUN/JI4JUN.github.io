@@ -1,8 +1,18 @@
+---
+publish: true
+date: July 8, 2024 9:23 AM
+title: 332 Reconstruct Itinerary
+project: leetcode-every-day
+tags:
+ - Solutions
+---
+
 # 332 Reconstruct Itinerary
 
-Created: July 8, 2024 9:23 AM
-Difficulty: Hard
-Topics: Backtracking, Depth-First Search, Eulerian Circuit, Graph
+Created: July 8, 2024 9:23 AM<br>
+Difficulty: Hard<br>
+Topics: Backtracking, Depth-First Search, Eulerian Circuit, Graph<br>
+Status: Done<br>
 
 ## 📖Description
 

@@ -160,6 +160,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                             ),
                         },
                         {
+                            text: '51 N-Queens',
+                            link: solutions(
+                                Question.NQueens.title,
+                                Question.NQueens.topic
+                            ),
+                        },
+                        {
                             text: '131 Palindrome Partitioning',
                             link: solutions(
                                 Question.PalindromePartitioning.title,
