@@ -1,5 +1,6 @@
 enum DataStructures {
     Array = 'Array',
+    String = 'String',
     HashTable = 'Hash-Table',
     LinkedList = 'Linked-List',
     Tree = 'Tree',
@@ -10,19 +11,42 @@ enum Algorithms {
     SlidingWindow = 'Sliding-Window',
     BinarySearch = 'Binary-Search',
     Backtracking = 'Backtracking',
+    Greedy = 'Greedy',
 }
 
 export class Question {
     // ************************** DataStructures **************************
 
     // ************************** Array **************************
-    public static readonly ValidSudoku = new Question(
+    public static readonly SpiralMatrix = new Question(
         '54-Spiral-Matrix',
         DataStructures.Array
     );
+    public static readonly SpiralMatrixII = new Question(
+        '59-Spiral-Matrix-II',
+        DataStructures.Array
+    );
+    public static readonly MergeSortedArray = new Question(
+        '88-Merge-Sorted-Array',
+        DataStructures.Array
+    );
+    public static readonly RotateArray = new Question(
+        '189-Rotate-Array',
+        DataStructures.Array
+    );
+    public static readonly HIndex = new Question(
+        '274-H-Index',
+        DataStructures.Array
+    );
+
+    // ************************** String **************************
+    public static readonly LengthofLastWord = new Question(
+        '58-Length-of-Last-Word',
+        DataStructures.String
+    );
 
     // ************************** Hash Table **************************
-    public static readonly SpiralMatrix = new Question(
+    public static readonly ValidSudoku = new Question(
         '36-Valid-Sudoku',
         DataStructures.HashTable
     );
@@ -121,6 +145,16 @@ export class Question {
     public static readonly NondecreasingSubsequences = new Question(
         '491-Non-decreasing-Subsequences',
         Algorithms.Backtracking
+    );
+
+    // ************************** Greedy **************************
+    public static readonly JumpGame = new Question(
+        '55-Jump-Game',
+        Algorithms.Greedy
+    );
+    public static readonly BestTimetoBuyandSellStockII = new Question(
+        '122-Best-Time-to-Buy-and-Sell-Stock-II',
+        Algorithms.Greedy
     );
 
     public readonly title: string;

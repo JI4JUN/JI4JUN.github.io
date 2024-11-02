@@ -50,8 +50,51 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                         {
                             text: '54 Spiral Matrix',
                             link: solutions(
-                                Question.ValidSudoku.title,
-                                Question.ValidSudoku.topic
+                                Question.SpiralMatrix.title,
+                                Question.SpiralMatrix.topic
+                            ),
+                        },
+                        {
+                            text: '59 Spiral Matrix II',
+                            link: solutions(
+                                Question.SpiralMatrixII.title,
+                                Question.SpiralMatrixII.topic
+                            ),
+                        },
+                        {
+                            text: '88 Merge Sorted Array',
+                            link: solutions(
+                                Question.MergeSortedArray.title,
+                                Question.MergeSortedArray.topic
+                            ),
+                        },
+                        {
+                            text: '189 Rotate Array',
+                            link: solutions(
+                                Question.RotateArray.title,
+                                Question.RotateArray.topic
+                            ),
+                        },
+                        {
+                            text: '274 H-Index',
+                            link: solutions(
+                                Question.HIndex.title,
+                                Question.HIndex.topic
+                            ),
+                        },
+                    ],
+                    collapsed: true,
+                },
+
+                // ************************** String **************************
+                {
+                    text: 'String',
+                    items: [
+                        {
+                            text: '58-Length-of-Last-Word',
+                            link: solutions(
+                                Question.LengthofLastWord.title,
+                                Question.LengthofLastWord.topic
                             ),
                         },
                     ],
@@ -264,6 +307,28 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                             link: solutions(
                                 Question.NondecreasingSubsequences.title,
                                 Question.NondecreasingSubsequences.topic
+                            ),
+                        },
+                    ],
+                    collapsed: true,
+                },
+
+                // ************************** Greedy **************************
+                {
+                    text: 'Greedy',
+                    items: [
+                        {
+                            text: '55 Jump Game',
+                            link: solutions(
+                                Question.JumpGame.title,
+                                Question.JumpGame.topic
+                            ),
+                        },
+                        {
+                            text: '122 Best Time to Buy and Sell Stock II',
+                            link: solutions(
+                                Question.BestTimetoBuyandSellStockII.title,
+                                Question.BestTimetoBuyandSellStockII.topic
                             ),
                         },
                     ],
