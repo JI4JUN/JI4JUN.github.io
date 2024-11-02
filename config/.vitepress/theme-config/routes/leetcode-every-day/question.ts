@@ -66,6 +66,10 @@ export class Question {
         '131-Palindrome-Partitioning',
         Algorithms.Backtracking
     );
+    public static readonly ReconstructItinerary = new Question(
+        '332-Reconstruct-Itinerary',
+        Algorithms.Backtracking
+    );
     public static readonly NondecreasingSubsequences = new Question(
         '491-Non-decreasing-Subsequences',
         Algorithms.Backtracking

@@ -167,6 +167,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                             ),
                         },
                         {
+                            text: '332 Reconstruct Itinerary',
+                            link: solutions(
+                                Question.ReconstructItinerary.title,
+                                Question.ReconstructItinerary.topic
+                            ),
+                        },
+                        {
                             text: '491 Non-decreasing Subsequences',
                             link: solutions(
                                 Question.NondecreasingSubsequences.title,
