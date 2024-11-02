@@ -54,6 +54,10 @@ export class Question {
         '274-H-Index',
         DataStructures.Array
     );
+    public static readonly GameofLife = new Question(
+        '289-Game-of-Life',
+        DataStructures.Array
+    );
 
     // ************************** String **************************
     public static readonly LengthofLastWord = new Question(
@@ -84,6 +88,14 @@ export class Question {
         '19-Remove-Nth-Node-From-End-of-List',
         DataStructures.LinkedList
     );
+    public static readonly PartitionList = new Question(
+        '86-Partition-List',
+        DataStructures.LinkedList
+    );
+    public static readonly CopyListwithRandomPointer = new Question(
+        '138-Copy-List-with-Random-Pointer',
+        DataStructures.LinkedList
+    );
     public static readonly LRUCache = new Question(
         '146-LRU-Cache',
         DataStructures.LinkedList
@@ -98,6 +110,10 @@ export class Question {
     );
 
     // ************************** Tree **************************
+    public static readonly CountCompleteTreeNodes = new Question(
+        '222-Count-Complete-Tree-Nodes',
+        DataStructures.Tree
+    );
     public static readonly MinimumAbsoluteDifferenceinBST = new Question(
         '530-Minimum-Absolute-Difference-in-BST',
         DataStructures.Tree

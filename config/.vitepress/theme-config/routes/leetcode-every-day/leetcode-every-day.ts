@@ -111,6 +111,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                                 Question.HIndex.topic
                             ),
                         },
+                        {
+                            text: '289 Game of Life',
+                            link: solutions(
+                                Question.GameofLife.title,
+                                Question.GameofLife.topic
+                            ),
+                        },
                     ],
                     collapsed: true,
                 },
@@ -178,6 +185,20 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                             ),
                         },
                         {
+                            text: '86 Partition List',
+                            link: solutions(
+                                Question.PartitionList.title,
+                                Question.PartitionList.topic
+                            ),
+                        },
+                        {
+                            text: '138 Copy List with Random Pointer',
+                            link: solutions(
+                                Question.CopyListwithRandomPointer.title,
+                                Question.CopyListwithRandomPointer.topic
+                            ),
+                        },
+                        {
                             text: '146 LRU Cache',
                             link: solutions(
                                 Question.LRUCache.title,
@@ -206,6 +227,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                 {
                     text: 'Tree',
                     items: [
+                        {
+                            text: '222 Count Complete Tree Nodes',
+                            link: solutions(
+                                Question.CountCompleteTreeNodes.title,
+                                Question.CountCompleteTreeNodes.topic
+                            ),
+                        },
                         {
                             text: '530 Minimum Absolute Difference in BST',
                             link: solutions(
