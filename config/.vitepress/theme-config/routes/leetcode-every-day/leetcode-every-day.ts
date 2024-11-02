@@ -96,7 +96,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                                 Question.RotateArray.topic
                             ),
                         },
-
+                        {
+                            text: '200 Number of Islands',
+                            link: solutions(
+                                Question.NumberofIslands.title,
+                                Question.NumberofIslands.topic
+                            ),
+                        },
                         {
                             text: '238 Product of Array Except Self',
                             link: solutions(
@@ -228,6 +234,22 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     text: 'Tree',
                     items: [
                         {
+                            text: '98 Validate Binary Search Tree',
+                            link: solutions(
+                                Question.ValidateBinarySearchTree.title,
+                                Question.ValidateBinarySearchTree.topic
+                            ),
+                        },
+                        {
+                            text: '103 Binary Tree Zigzag Level Order Traversal',
+                            link: solutions(
+                                Question.BinaryTreeZigzagLevelOrderTraversal
+                                    .title,
+                                Question.BinaryTreeZigzagLevelOrderTraversal
+                                    .topic
+                            ),
+                        },
+                        {
                             text: '222 Count Complete Tree Nodes',
                             link: solutions(
                                 Question.CountCompleteTreeNodes.title,
@@ -246,6 +268,42 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                             link: solutions(
                                 Question.MergeTwoBinaryTrees.title,
                                 Question.MergeTwoBinaryTrees.topic
+                            ),
+                        },
+                    ],
+                    collapsed: true,
+                },
+
+                // ************************** Graph **************************
+                {
+                    text: 'Graph',
+                    items: [
+                        {
+                            text: '133 Clone Graph',
+                            link: solutions(
+                                Question.CloneGraph.title,
+                                Question.CloneGraph.topic
+                            ),
+                        },
+                        {
+                            text: '207 Course Schedule',
+                            link: solutions(
+                                Question.CourseSchedule.title,
+                                Question.CourseSchedule.topic
+                            ),
+                        },
+                        {
+                            text: '210 Course Schedule II',
+                            link: solutions(
+                                Question.CourseScheduleII.title,
+                                Question.CourseScheduleII.topic
+                            ),
+                        },
+                        {
+                            text: '399 Evaluate Division',
+                            link: solutions(
+                                Question.EvaluateDivision.title,
+                                Question.EvaluateDivision.topic
                             ),
                         },
                     ],

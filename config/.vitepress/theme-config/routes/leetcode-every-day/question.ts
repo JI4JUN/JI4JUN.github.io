@@ -4,6 +4,7 @@ enum DataStructures {
     HashTable = 'Hash-Table',
     LinkedList = 'Linked-List',
     Tree = 'Tree',
+    Graph = 'Graph',
     HeapOrPriorityQueue = 'Heap-Or-Priority-Queue',
     Stack = 'Stack',
 }
@@ -44,6 +45,10 @@ export class Question {
     );
     public static readonly RotateArray = new Question(
         '189-Rotate-Array',
+        DataStructures.Array
+    );
+    public static readonly NumberofIslands = new Question(
+        '200-Number-of-Islands',
         DataStructures.Array
     );
     public static readonly ProductofArrayExceptSelf = new Question(
@@ -110,6 +115,14 @@ export class Question {
     );
 
     // ************************** Tree **************************
+    public static readonly ValidateBinarySearchTree = new Question(
+        '98-Validate-Binary-Search-Tree',
+        DataStructures.Tree
+    );
+    public static readonly BinaryTreeZigzagLevelOrderTraversal = new Question(
+        '103-Binary-Tree-Zigzag-Level-Order-Traversal',
+        DataStructures.Tree
+    );
     public static readonly CountCompleteTreeNodes = new Question(
         '222-Count-Complete-Tree-Nodes',
         DataStructures.Tree
@@ -121,6 +134,24 @@ export class Question {
     public static readonly MergeTwoBinaryTrees = new Question(
         '617-Merge-Two-Binary-Trees',
         DataStructures.Tree
+    );
+
+    // ************************** Graph **************************
+    public static readonly CloneGraph = new Question(
+        '133-Clone-Graph',
+        DataStructures.Graph
+    );
+    public static readonly CourseSchedule = new Question(
+        '207-Course-Schedule',
+        DataStructures.Graph
+    );
+    public static readonly CourseScheduleII = new Question(
+        '210-Course-Schedule-II',
+        DataStructures.Graph
+    );
+    public static readonly EvaluateDivision = new Question(
+        '399-Evaluate-Division',
+        DataStructures.Graph
     );
 
     // ************************** Heap/Priority Queue **************************
