@@ -1,4 +1,5 @@
 enum DataStructures {
+    Array = 'Array',
     HashTable = 'Hash-Table',
     LinkedList = 'Linked-List',
     HeapOrPriorityQueue = 'Heap-Or-Priority-Queue',
@@ -13,8 +14,14 @@ enum Algorithms {
 export class Question {
     // ************************** DataStructures **************************
 
-    // ************************** Hash Table **************************
+    // ************************** Array **************************
     public static readonly ValidSudoku = new Question(
+        '54-Spiral-Matrix',
+        DataStructures.Array
+    );
+
+    // ************************** Hash Table **************************
+    public static readonly SpiralMatrix = new Question(
         '36-Valid-Sudoku',
         DataStructures.HashTable
     );

@@ -43,6 +43,21 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
             items: [
                 // ************************** DataStructures **************************
 
+                // ************************** Array **************************
+                {
+                    text: 'Array',
+                    items: [
+                        {
+                            text: '54 Spiral Matrix',
+                            link: solutions(
+                                Question.ValidSudoku.title,
+                                Question.ValidSudoku.topic
+                            ),
+                        },
+                    ],
+                    collapsed: true,
+                },
+
                 // ************************** Hash Table **************************
                 {
                     text: 'Hash Table',
