@@ -18,8 +18,16 @@ export class Question {
     // ************************** DataStructures **************************
 
     // ************************** Array **************************
+    public static readonly ThreeSum = new Question(
+        '15-3Sum',
+        DataStructures.Array
+    );
     public static readonly SpiralMatrix = new Question(
         '54-Spiral-Matrix',
+        DataStructures.Array
+    );
+    public static readonly InsertInterval = new Question(
+        '57-Insert-Interval',
         DataStructures.Array
     );
     public static readonly SpiralMatrixII = new Question(
@@ -30,8 +38,16 @@ export class Question {
         '88-Merge-Sorted-Array',
         DataStructures.Array
     );
+    public static readonly GasStation = new Question(
+        '134-Gas-Station',
+        DataStructures.Array
+    );
     public static readonly RotateArray = new Question(
         '189-Rotate-Array',
+        DataStructures.Array
+    );
+    public static readonly ProductofArrayExceptSelf = new Question(
+        '238-Product-of-Array-Except-Self',
         DataStructures.Array
     );
     public static readonly HIndex = new Question(
@@ -60,6 +76,14 @@ export class Question {
     );
 
     // ************************** Linked List **************************
+    public static readonly AddTwoNumbers = new Question(
+        '2-Add-Two-Numbers',
+        DataStructures.LinkedList
+    );
+    public static readonly RemoveNthNodeFromEndofList = new Question(
+        '19-Remove-Nth-Node-From-End-of-List',
+        DataStructures.LinkedList
+    );
     public static readonly LRUCache = new Question(
         '146-LRU-Cache',
         DataStructures.LinkedList
@@ -74,6 +98,10 @@ export class Question {
     );
 
     // ************************** Tree **************************
+    public static readonly MinimumAbsoluteDifferenceinBST = new Question(
+        '530-Minimum-Absolute-Difference-in-BST',
+        DataStructures.Tree
+    );
     public static readonly MergeTwoBinaryTrees = new Question(
         '617-Merge-Two-Binary-Trees',
         DataStructures.Tree
@@ -94,6 +122,11 @@ export class Question {
     // ************************** Algorithms **************************
 
     // ************************** Sliding Window **************************
+    public static readonly LongestSubstringWithoutRepeatingCharacters =
+        new Question(
+            '3-Longest-Substring-Without-Repeating-Characters',
+            Algorithms.SlidingWindow
+        );
     public static readonly MinimumWindowSubstring = new Question(
         '76-Minimum-Window-Substring',
         Algorithms.SlidingWindow

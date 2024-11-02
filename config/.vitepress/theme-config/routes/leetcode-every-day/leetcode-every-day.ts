@@ -48,10 +48,24 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     text: 'Array',
                     items: [
                         {
+                            text: '15 3Sum',
+                            link: solutions(
+                                Question.ThreeSum.title,
+                                Question.ThreeSum.topic
+                            ),
+                        },
+                        {
                             text: '54 Spiral Matrix',
                             link: solutions(
                                 Question.SpiralMatrix.title,
                                 Question.SpiralMatrix.topic
+                            ),
+                        },
+                        {
+                            text: '57 Insert Interval',
+                            link: solutions(
+                                Question.InsertInterval.title,
+                                Question.InsertInterval.topic
                             ),
                         },
                         {
@@ -69,10 +83,25 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                             ),
                         },
                         {
+                            text: '134 Gas Station',
+                            link: solutions(
+                                Question.GasStation.title,
+                                Question.GasStation.topic
+                            ),
+                        },
+                        {
                             text: '189 Rotate Array',
                             link: solutions(
                                 Question.RotateArray.title,
                                 Question.RotateArray.topic
+                            ),
+                        },
+
+                        {
+                            text: '238 Product of Array Except Self',
+                            link: solutions(
+                                Question.ProductofArrayExceptSelf.title,
+                                Question.ProductofArrayExceptSelf.topic
                             ),
                         },
                         {
@@ -135,6 +164,20 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     text: 'Linked List',
                     items: [
                         {
+                            text: '2 Add Two Numbers',
+                            link: solutions(
+                                Question.AddTwoNumbers.title,
+                                Question.AddTwoNumbers.topic
+                            ),
+                        },
+                        {
+                            text: '19 Remove Nth Node From End of List',
+                            link: solutions(
+                                Question.RemoveNthNodeFromEndofList.title,
+                                Question.RemoveNthNodeFromEndofList.topic
+                            ),
+                        },
+                        {
                             text: '146 LRU Cache',
                             link: solutions(
                                 Question.LRUCache.title,
@@ -163,6 +206,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                 {
                     text: 'Tree',
                     items: [
+                        {
+                            text: '530 Minimum Absolute Difference in BST',
+                            link: solutions(
+                                Question.MinimumAbsoluteDifferenceinBST.title,
+                                Question.MinimumAbsoluteDifferenceinBST.topic
+                            ),
+                        },
                         {
                             text: '617 Merge Two Binary Trees',
                             link: solutions(
@@ -210,6 +260,17 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                 {
                     text: 'Sliding Window',
                     items: [
+                        {
+                            text: '3 Longest Substring Without Repeating Characters',
+                            link: solutions(
+                                Question
+                                    .LongestSubstringWithoutRepeatingCharacters
+                                    .title,
+                                Question
+                                    .LongestSubstringWithoutRepeatingCharacters
+                                    .topic
+                            ),
+                        },
                         {
                             text: '76 Minimum Window Substring',
                             link: solutions(
