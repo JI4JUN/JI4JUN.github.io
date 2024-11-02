@@ -116,6 +116,21 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                     collapsed: true,
                 },
 
+                // ************************** Tree **************************
+                {
+                    text: 'Tree',
+                    items: [
+                        {
+                            text: '617 Merge Two Binary Trees',
+                            link: solutions(
+                                Question.MergeTwoBinaryTrees.title,
+                                Question.MergeTwoBinaryTrees.topic
+                            ),
+                        },
+                    ],
+                    collapsed: true,
+                },
+
                 // ************************** Heap/Priority Queue **************************
                 {
                     text: 'Heap/Priority Queue',

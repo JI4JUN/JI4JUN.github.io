@@ -2,6 +2,7 @@ enum DataStructures {
     Array = 'Array',
     HashTable = 'Hash-Table',
     LinkedList = 'Linked-List',
+    Tree = 'Tree',
     HeapOrPriorityQueue = 'Heap-Or-Priority-Queue',
     Stack = 'Stack',
 }
@@ -46,6 +47,12 @@ export class Question {
     public static readonly ReverseLinkedList = new Question(
         '206-Reverse-Linked-List',
         DataStructures.LinkedList
+    );
+
+    // ************************** Tree **************************
+    public static readonly MergeTwoBinaryTrees = new Question(
+        '617-Merge-Two-Binary-Trees',
+        DataStructures.Tree
     );
 
     // ************************** Heap/Priority Queue **************************
