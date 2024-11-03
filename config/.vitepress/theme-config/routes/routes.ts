@@ -3,7 +3,6 @@ import {
     leetcodeNav,
     leetcodeSidebar,
 } from './leetcode-every-day/leetcode-every-day';
-import { gepickNav, gepickSidebar } from './gepick';
 
 export const nav: DefaultTheme.Config['nav'] = [
     {
