@@ -1,11 +1,11 @@
 {
-  "name": "@ji4jun/config",
-  "type": "module",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
-  }
+    "name": "@blog/config",
+    "type": "module",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "vitepress dev",
+        "build": "vitepress build",
+        "preview": "vitepress preview"
+    }
 }

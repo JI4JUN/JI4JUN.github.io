@@ -1,3 +1,3 @@
-import Theme from "@ji4jun/theme";
+import Theme from '@blog/theme';
 
 export default Theme;

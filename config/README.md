@@ -1,1 +1,1 @@
-# @ji4jun/config
+# @blog/config

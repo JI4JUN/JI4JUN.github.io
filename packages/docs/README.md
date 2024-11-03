@@ -1,4 +1,4 @@
-# @ji4jun/docs
+# @blog/docs
 
 markdown文章存放
 

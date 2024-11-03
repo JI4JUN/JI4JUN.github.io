@@ -10,10 +10,10 @@ importers:
       "@antv/g2plot":
         specifier: ^2.4.31
         version: 2.4.31
-      "@ji4jun/docs":
+      "@blog/docs":
         specifier: workspace:*
         version: link:packages/docs
-      "@ji4jun/theme":
+      "@blog/theme":
         specifier: workspace:*
         version: link:packages/theme
       blueimp-md5:

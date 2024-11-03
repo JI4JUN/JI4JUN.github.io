@@ -47,7 +47,7 @@ jobs:
         run: pnpm i
 
       - name: Build with VitePress
-        run: pnpm --filter @ji4jun/config build
+        run: pnpm --filter @blog/config build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -11,13 +11,13 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "paths": {
-      "@ji4jun/config/*": [
+      "@blog/config/*": [
         "./config/*"
       ],
-      "@ji4jun/docs/*": [
+      "@blog/docs/*": [
         "./packages/docs/src/*"
       ],
-      "@ji4jun/theme/*": [
+      "@blog/theme/*": [
         "./packages/theme/src/*"
       ]
     },
