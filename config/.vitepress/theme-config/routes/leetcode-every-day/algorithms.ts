@@ -12,6 +12,7 @@ export class Algorithm {
         'Bubble-Sort',
         Types.Sort
     );
+    public static readonly QuickSort = new Algorithm('Qucik-Sort', Types.Sort);
 
     public readonly name: string;
     public readonly type: string;

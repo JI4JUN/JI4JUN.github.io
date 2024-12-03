@@ -67,6 +67,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                                 Algorithm.BubbleSort.type
                             ),
                         },
+                        {
+                            text: 'Quick Sort',
+                            link: algorithms(
+                                Algorithm.QuickSort.name,
+                                Algorithm.QuickSort.type
+                            ),
+                        },
                     ],
                     collapsed: true,
                 },
