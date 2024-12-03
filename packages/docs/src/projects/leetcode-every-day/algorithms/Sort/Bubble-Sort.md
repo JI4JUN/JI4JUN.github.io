@@ -10,11 +10,14 @@ tags:
 # Bubble Sort
 
 ```javascript
+/**
+ * Implements the Bubble Sort algorithm to sort an array in ascending order.
+ */
 function bubbleSort(arr) {
-    let swapped; // Flag to indicate if a swap occurred in the current iteration
+    let swapped; // Flag to indicate if a swap occurred in the current iteration.
 
     for (let i = 0; i < arr.length; i++) {
-        swapped = false; // Reset the swapped flag
+        swapped = false; // Reset the swapped flag.
 
         for (let j = 0; j < arr.length - 1 - i; j++) {
             if (arr[j] > arr[j + 1]) {
@@ -23,7 +26,7 @@ function bubbleSort(arr) {
             }
         }
 
-        // If no swaps occurred during this pass, the array is already sorted
+        // If no swaps occurred during this pass, the array is already sorted.
         if (!swapped) {
             break;
         }

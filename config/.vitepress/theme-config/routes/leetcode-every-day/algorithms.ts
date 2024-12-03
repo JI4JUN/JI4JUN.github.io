@@ -6,7 +6,7 @@ enum Types {
 export class Algorithm {
     public static readonly BinarySearch = new Algorithm(
         'Binary-Search',
-        Types.Sort
+        Types.Search
     );
     public static readonly BubbleSort = new Algorithm(
         'Bubble-Sort',
