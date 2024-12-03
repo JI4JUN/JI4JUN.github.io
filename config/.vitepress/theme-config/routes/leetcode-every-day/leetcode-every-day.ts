@@ -1,13 +1,16 @@
 import { DefaultTheme } from 'vitepress';
 import { Question } from './question';
+import { Algorithm } from './algorithms';
 
 export const leetcodeEveryDay = (subPath: string) =>
     '/projects/leetcode-every-day' + subPath;
 
 export const introduction = (subPath: string) =>
     leetcodeEveryDay('/introduction/' + subPath);
-export const dataStructure = (subPath: string) =>
+export const dataStructures = (subPath: string) =>
     leetcodeEveryDay('/data-structures/' + subPath);
+export const algorithms = (subPath: string, type: string) =>
+    leetcodeEveryDay('/algorithms/' + type + '/' + subPath);
 export const solutions = (subPath: string, topic: string) =>
     leetcodeEveryDay('/solutions/' + topic + '/' + subPath);
 
@@ -29,11 +32,43 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
             collapsed: true,
         },
         {
-            text: 'Data Structure',
+            text: 'Data Structures',
             items: [
                 {
                     text: 'Heap/Priority Queue',
-                    link: dataStructure('HeapOrPriorityQueue'),
+                    link: dataStructures('HeapOrPriorityQueue'),
+                },
+            ],
+            collapsed: true,
+        },
+        {
+            text: 'Algorithms',
+            items: [
+                {
+                    text: 'Search',
+                    items: [
+                        {
+                            text: 'Binary Search',
+                            link: algorithms(
+                                Algorithm.BinarySearch.name,
+                                Algorithm.BinarySearch.type
+                            ),
+                        },
+                    ],
+                    collapsed: true,
+                },
+                {
+                    text: 'Sort',
+                    items: [
+                        {
+                            text: 'Bubble Sort',
+                            link: algorithms(
+                                Algorithm.BubbleSort.name,
+                                Algorithm.BubbleSort.type
+                            ),
+                        },
+                    ],
+                    collapsed: true,
                 },
             ],
             collapsed: true,
