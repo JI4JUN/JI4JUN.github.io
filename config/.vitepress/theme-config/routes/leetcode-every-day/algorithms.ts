@@ -13,6 +13,10 @@ export class Algorithm {
         Types.Sort
     );
     public static readonly QuickSort = new Algorithm('Quick-Sort', Types.Sort);
+    public static readonly InsertionSort = new Algorithm(
+        'Insertion-Sort',
+        Types.Sort
+    );
 
     public readonly name: string;
     public readonly type: string;

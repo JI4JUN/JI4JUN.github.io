@@ -74,6 +74,13 @@ export const leetcodeSidebar: DefaultTheme.Config['sidebar'] = {
                                 Algorithm.QuickSort.type
                             ),
                         },
+                        {
+                            text: 'Insertion Sort',
+                            link: algorithms(
+                                Algorithm.InsertionSort.name,
+                                Algorithm.InsertionSort.type
+                            ),
+                        },
                     ],
                     collapsed: true,
                 },
