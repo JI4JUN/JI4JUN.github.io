@@ -17,6 +17,10 @@ export class Algorithm {
         'Insertion-Sort',
         Types.Sort
     );
+    public static readonly SelectionSort = new Algorithm(
+        'Selection-Sort',
+        Types.Sort
+    );
 
     public readonly name: string;
     public readonly type: string;
