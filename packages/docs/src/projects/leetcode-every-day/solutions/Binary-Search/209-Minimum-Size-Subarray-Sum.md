@@ -80,7 +80,7 @@ for (let i = 1; i < prefix.length; ++i) {
 > The reason why the length of `prefix` is initialized by `nums.length + 1` is for simplify calculations. For example, if we want to calculate the sum of subarray from `nums[0]` to `nums[2]` , it can be easily found using `prefix[2] - prefix[0]` .
 >
 
-![MinimumSizeSubarraySum2](/images/209-Minimum-Size-Subarray-Sum-2.png)
+![MinimumSizeSubarraySum2](./images/209-Minimum-Size-Subarray-Sum-2.png)
 
 ### Binary Search Technique
 
