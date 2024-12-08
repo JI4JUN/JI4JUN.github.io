@@ -1,51 +1,51 @@
 {
-  "compilerOptions": {
-    "target": "es2015",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "baseUrl": ".",
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "paths": {
-      "@blog/config/*": [
-        "./config/*"
-      ],
-      "@blog/docs/*": [
-        "./packages/docs/src/*"
-      ],
-      "@blog/theme/*": [
-        "./packages/theme/src/*"
-      ]
+    "compilerOptions": {
+        "target": "es2015",
+        "lib": [
+            "es2020",
+            "dom"
+        ],
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "paths": {
+            "@blog/config/*": [
+                "./config/*"
+            ],
+            "@blog/docs/*": [
+                "./packages/docs/src/*"
+            ],
+            "@blog/theme/*": [
+                "./packages/theme/src/*"
+            ],
+        },
+        "resolveJsonModule": true,
+        "allowArbitraryExtensions": true,
+        "allowJs": false,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": false,
+        "declaration": true,
+        "declarationMap": true,
+        "importHelpers": true,
+        "noEmit": true,
+        "noEmitOnError": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true
     },
-    "resolveJsonModule": true,
-    "allowArbitraryExtensions": true,
-    "allowJs": false,
-    "strict": true,
-    "strictPropertyInitialization": false,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitOverride": true,
-    "noImplicitReturns": true,
-    "noPropertyAccessFromIndexSignature": false,
-    "declaration": true,
-    "declarationMap": true,
-    "importHelpers": true,
-    "noEmit": true,
-    "noEmitOnError": true,
-    "sourceMap": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipDefaultLibCheck": true,
-    "skipLibCheck": true
-  },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "tmp"
-  ],
-  "compileOnSave": false
+    "exclude": [
+        "node_modules",
+        "dist",
+        "tmp"
+    ],
+    "compileOnSave": false
 }
