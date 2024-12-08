@@ -1,8 +1,8 @@
 ---
 publish: true
-date: 2024/07/08 11:30
+date: 2024/12/08 15:00
 title: Introduction
-project: leetcode-every-day
+project: thinkTo
 tags:
  - Introduction
 ---
