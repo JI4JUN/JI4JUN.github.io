@@ -24,7 +24,7 @@ export const openwizardSidebar: DefaultTheme.Config['sidebar'] = {
             collapsed: true,
         },
         {
-            text: 'Recolor',
+            text: 'Login',
             items: [
                 {
                     text: '在electron中实现微信二维码扫码登录',
