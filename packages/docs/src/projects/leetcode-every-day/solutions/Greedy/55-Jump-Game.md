@@ -34,7 +34,7 @@ The optimal strategy proposed in Intuition is essentially the idea of the greedy
 
 ### Illustration
 
-![JumpGame.png](/images/55-Jump-Game.png)
+![JumpGame.png](./images/55-Jump-Game.png)
 
 The dashed line in the figure represents the coverage range of the moving walkway, and the red line represents the destination Terminal 4.
 
