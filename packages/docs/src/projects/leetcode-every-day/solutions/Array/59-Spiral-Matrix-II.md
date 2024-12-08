@@ -38,7 +38,7 @@ However, not every matrix can completely execute these four steps in the final i
 - If the given `n` is a odd number, after completing the final loop, it is necessary to fill the element at the last position of the matrix.
 - If the given `n` is a even number, the final iteration will only proceed to the third step.
 
-![SpiralMatrixIi.png](/images/59-Spiral-Matrix-II.png)
+![SpiralMatrixIi.png](./images/59-Spiral-Matrix-II.png)
 
 ### Approach Steps
 

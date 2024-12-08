@@ -26,7 +26,7 @@ The key to solving this problem is to handle the feature of addition in the deci
 
 ### Illustration
 
-![AddTwoNumbers.png](/images/2-Add-Two-Numbers.png)
+![AddTwoNumbers.png](./images/2-Add-Two-Numbers.png)
 
 ### Carry Handling
 

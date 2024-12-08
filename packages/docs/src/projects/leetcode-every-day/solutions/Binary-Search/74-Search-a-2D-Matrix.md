@@ -31,7 +31,7 @@ This approach is based on the Intuition One.
 
 ### Map The Coordinates
 
-![Searcha2DMatrix1.png](/images/74-Search-a-2D-Matrix.png)
+![Searcha2DMatrix1.png](./images/74-Search-a-2D-Matrix.png)
 
 Because we want to treat the `matrix` as a 1D array, the position `i` in this 1D array can be accessed in the `matrix` by the following formulas:
 

@@ -25,7 +25,7 @@ This problem is aim to find out the intersection node of two linked lists `headA
 > Some people may confuse the `curNodeA === curNodeB` and `curNodeA.val === curNodeB.val` . We can figure it out from the following diagram:
 >
 >
-> ![IntersectionOfTwoLinkedLists](/images/160-Intersection-of-Two-Linked-Lists.png)
+> ![IntersectionOfTwoLinkedLists](./images/160-Intersection-of-Two-Linked-Lists.png)
 >
 
 ## 📋Approach One

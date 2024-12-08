@@ -26,7 +26,7 @@ To solve this problem, we can use Sliding Window technique to track of the maxim
 
 ### Illustration
 
-![LongestSubstringWithoutRepeatingCharacters.png](/images/3-Longest-Substring-Without-Repeating-Characters-1.png)
+![LongestSubstringWithoutRepeatingCharacters.png](./images/3-Longest-Substring-Without-Repeating-Characters-1.png)
 
 ### Valid Window Check
 
@@ -40,7 +40,7 @@ The answer is no! Because we need to guarantee that `left` only moves right and 
 
 Think about the situation that given `s` is `'abba'` :
 
-![LongestSubstringWithoutRepeatingCharacters2.png](/images/3-Longest-Substring-Without-Repeating-Characters-2.png)
+![LongestSubstringWithoutRepeatingCharacters2.png](./images/3-Longest-Substring-Without-Repeating-Characters-2.png)
 
 ### Step By Step Breakdown
 

@@ -28,15 +28,15 @@ So, we may be confused by the intuition that the answer `hIndex` comes from one 
 
 For a number array with a length of 5, regardless of the values of its elements, the maximum H-Index of this array can only be 5, which is the length of itself, and the minimum H-Index can only be 0 (while the array is `[0, 0, 0, 0, 0]`).
 
-![H-Index2.png](/images/274-H-Index-1.png)
+![H-Index2.png](./images/274-H-Index-1.png)
 
 So, under what circumstances does the array of length 5 have a H-Index of 4? We just need to reduce one of elements’ value to less than 4 and keep the values of the other four elements greater than or equal to 4.
 
-![H-Index3.png](/images/274-H-Index-2.png)
+![H-Index3.png](./images/274-H-Index-2.png)
 
 What about H-Index is 3? Similarly, We only need to reduce two of elements’ value to less than 3 and keep the values of the other three elements not less than 3.
 
-![H-Index4.png](/images/274-H-Index-3.png)
+![H-Index4.png](./images/274-H-Index-3.png)
 
 Now, I think you already have a clear understanding of the definition of the H-Index. Next, we will figure out how to determine the value of H-Index.
 
@@ -44,7 +44,7 @@ Taking `nums = [4, 0, 6, 1, 5]` as an example, we sort the `nums` first, then we
 
 ### Illustration
 
-![H-Index.png](/images/274-H-Index-4.png)
+![H-Index.png](./images/274-H-Index-4.png)
 
 ### Approach Steps
 
@@ -80,7 +80,7 @@ function hIndex(citations: number[]): number {
 
 A faster approach is to use  Counting Sort, but this need require extra space.
 
-![H-Index5.png](/images/274-H-Index-5.png)
+![H-Index5.png](./images/274-H-Index-5.png)
 
 Step By Step breakdown:
 

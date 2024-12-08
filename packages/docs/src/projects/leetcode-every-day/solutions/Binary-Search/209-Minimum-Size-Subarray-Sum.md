@@ -26,7 +26,7 @@ We can use a Sliding Window approach to tackle this problem. The Sliding Window 
 
 ### Illustration
 
-![MinimumSizeSubarraySum](/images/209-Minimum-Size-Subarray-Sum-1.png)
+![MinimumSizeSubarraySum](./images/209-Minimum-Size-Subarray-Sum-1.png)
 
 ### Sliding Window Approach
 

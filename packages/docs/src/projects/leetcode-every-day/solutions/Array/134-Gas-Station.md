@@ -33,11 +33,11 @@ If there are intervals in the array with negative cumulative values in `surplus`
 
 So, if we merge all negative and non negative cumulative value intervals separately, then we will get another conclusion that if the sum of the values of all element in `surplus` is less than 0, indicates there is not exist a solution. Otherwise, there must be a solution.
 
-![GasStation2.png](/images/134-Gas-Station-2.png)
+![GasStation2.png](./images/134-Gas-Station-2.png)
 
 ### Illustration
 
-![GasStation.png](/images/134-Gas-Station-1.png)
+![GasStation.png](./images/134-Gas-Station-1.png)
 
 Step By Step Breakdown:
 

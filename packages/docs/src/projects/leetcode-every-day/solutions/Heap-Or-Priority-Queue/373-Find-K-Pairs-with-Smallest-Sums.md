@@ -31,7 +31,7 @@ There will be two ways to solve this problem:
 
 ## 🖼️Illustration
 
-![kSmallestPairs1.png](/images/373-Find-K-Pairs-with-Smallest-Sums.png)
+![kSmallestPairs1.png](./images/373-Find-K-Pairs-with-Smallest-Sums.png)
 
 ## 📋Approach One
 

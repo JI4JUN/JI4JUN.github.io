@@ -35,11 +35,11 @@ Now, all we need to do is to find out all the opportunity that can generate retu
 
 ### Illustration
 
-![BestTimetoBuyandSellStockII.png](/images/122-Best-Time-to-Buy-and-Sell-Stock-II-1.png)
+![BestTimetoBuyandSellStockII.png](./images/122-Best-Time-to-Buy-and-Sell-Stock-II-1.png)
 
 If the above illustration is not intuitive enough, we can convert it into a simple stock index chart.
 
-![BestTimetoBuyandSellStockII2.png](/images/122-Best-Time-to-Buy-and-Sell-Stock-II-2.png)
+![BestTimetoBuyandSellStockII2.png](./images/122-Best-Time-to-Buy-and-Sell-Stock-II-2.png)
 
 Among them, the left illustration corresponds to the example given in the previous figure, and the right one is to illustrate another situation.
 

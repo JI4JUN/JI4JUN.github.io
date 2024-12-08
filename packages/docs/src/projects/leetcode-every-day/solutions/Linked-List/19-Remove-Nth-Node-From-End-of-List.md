@@ -26,7 +26,7 @@ This problem requires us to remove the $n^{th}$ node from the end of the given l
 
 ### Illustration
 
-![RemoceNthNodeFromEndOfList.png](/images/19-Remove-Nth-Node-From-End-of-List-1.png)
+![RemoceNthNodeFromEndOfList.png](./images/19-Remove-Nth-Node-From-End-of-List-1.png)
 
 ### Two-Pointers Technology
 
@@ -36,7 +36,7 @@ To solve this problem, we can define two pointers, where fast pointer `fastNode`
 
 We initialize a dummy node and set its `next` pointer to `head` , which is convenient to deal with the situation of only one node in the given list.
 
-![RemoceNthNodeFromEndOfList2.png](/images/19-Remove-Nth-Node-From-End-of-List-2.png)
+![RemoceNthNodeFromEndOfList2.png](./images/19-Remove-Nth-Node-From-End-of-List-2.png)
 
 ### Step By Step Breakdown
 

@@ -131,7 +131,7 @@ Different to above approach, recursive approach can check the validity on-the-fl
 
 ### Illustration
 
-![ValidateBinarySearchTree.png](/images/98-Validate-Binary-Search-Tree.png)
+![ValidateBinarySearchTree.png](./images/98-Validate-Binary-Search-Tree.png)
 
 ### Validity Check
 

@@ -130,7 +130,7 @@ We combine the results of the left and right passes to get the final result.
 
 ### Illustration
 
-![ProductOfArrayExceptSelf.png](/images/238-Product-of-Array-Except-Self.png)
+![ProductOfArrayExceptSelf.png](./images/238-Product-of-Array-Except-Self.png)
 
 ### Step By Step Breakdown
 

@@ -26,7 +26,7 @@ The problem can be interpreted as meaning that we are going to use up all the ti
 
 ### **State-space Tree**
 
-![ReconstructItinerary](/images/332-Reconstruct-Itinerary.png)
+![ReconstructItinerary](./images/332-Reconstruct-Itinerary.png)
 
 ### Sort By Lexical Order
 

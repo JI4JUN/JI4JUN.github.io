@@ -30,7 +30,7 @@ Approach One is based on **DFS.**
 
 ### Illustration
 
-![NumberOfIslands_1.png](/images/200-Number-of-Islands-1.png)
+![NumberOfIslands_1.png](./images/200-Number-of-Islands-1.png)
 
 ### Implementation of Helper Function `dfs(r, c)`
 
@@ -124,7 +124,7 @@ Approach One is based on B**FS.**
 
 ### Illustration
 
-![NumberOfIslands_2.png](/images/200-Number-of-Islands-2.png)
+![NumberOfIslands_2.png](./images/200-Number-of-Islands-2.png)
 
 ### Implementation of Helper Function `bfs(r, c)`
 

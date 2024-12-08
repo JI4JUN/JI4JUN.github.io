@@ -45,7 +45,7 @@ const getHeight = (root: TreeNode): number => {
 
 ### Illustration
 
-![CountCompleteTreeNodes.png](/images/222-Count-Complete-Tree-Nodes.png)
+![CountCompleteTreeNodes.png](./images/222-Count-Complete-Tree-Nodes.png)
 
 This illustration shows two conclusions mentioned in the Intuition, respectively. Based on it, we can simply describe the process as “halve the tree, count the nodes of perfect binary tree, and repeat the process for another subtree”.
 

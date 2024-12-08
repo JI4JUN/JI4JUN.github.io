@@ -26,7 +26,7 @@ This problem is similar to [46 **Permutations**](https://www.notion.so/46-Permut
 
 ### State-space Tree
 
-![PermutationsII.png](/images/47-Permutations-II.png)
+![PermutationsII.png](./images/47-Permutations-II.png)
 
 ### Avoiding Duplicates
 

@@ -28,7 +28,7 @@ This approach get the traversal from right to left by changing the order of addi
 
 ### Illustration
 
-![BinaryTreeZigzagLevelOrderTraversal.png](/images/103-Binary-Tree-Zigzag-Level-Order-Traversal.png)
+![BinaryTreeZigzagLevelOrderTraversal.png](./images/103-Binary-Tree-Zigzag-Level-Order-Traversal.png)
 
 ### Step By Step Breakdown
 

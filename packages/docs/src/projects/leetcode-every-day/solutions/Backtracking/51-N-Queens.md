@@ -26,7 +26,7 @@ It is well known that the N-Queens problem is a classic problem solved by backtr
 
 ### State-space Tree
 
-![NQueens](/images/51-N-Queens-1.png)
+![NQueens](./images/51-N-Queens-1.png)
 
 ### Safety Check
 
@@ -151,7 +151,7 @@ There is another method to check if this place is safe to place the queen just n
 
 **Consider the case shown in the following figure:**
 
-![NQueens2](/images/51-N-Queens-2.png)
+![NQueens2](./images/51-N-Queens-2.png)
 
 If we're going to place the queen on `(2, 2)` , it will entail all the places of row (less than 2), plus col (less than 2) is equal to 4 and row minus col `(0, 0), (1, 1), (1, 3), (0, 4)` must ensure that the queens are not placed.
 
@@ -287,7 +287,7 @@ function solveNQueens(n: number): string[][] {
 
 Consider following figure, we can initialize three arrays to keep track of the columns and diagonals that are already placed queens. They work by the theory of “Safety Check” in the “Approach Two”.
 
-![NQueens3](/images/51-N-Queens-3.png)
+![NQueens3](./images/51-N-Queens-3.png)
 
 ### Recursive Backtracking
 
@@ -311,7 +311,7 @@ Consider following figure, we can initialize three arrays to keep track of the c
 > console.log(arr[-1]); // 4
 > ```
 >
-> ![NQueens4](/images/51-N-Queens-4.png)
+> ![NQueens4](./images/51-N-Queens-4.png)
 >
 
 ## 📊Complexity

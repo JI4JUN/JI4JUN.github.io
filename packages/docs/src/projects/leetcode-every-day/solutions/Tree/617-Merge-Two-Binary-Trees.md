@@ -26,7 +26,7 @@ This problem mainly examines the traversal of binary trees, then we can use DFS 
 
 ### **Illustration**
 
-![MergeTwoBinaryTrees](/images/617-Merge-Two-Binary-Trees.png)
+![MergeTwoBinaryTrees](./images/617-Merge-Two-Binary-Trees.png)
 
 ### Terminal Conditions
 

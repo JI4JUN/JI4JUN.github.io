@@ -41,7 +41,7 @@ Take `prerequisites = [[1, 4], [2, 4], [3, 1], [3, 2]]` as an example:
 
 **Illustration**
 
-![CourseSchedule1.png](/images/210-Course-Schedule-II-1.png)
+![CourseSchedule1.png](./images/210-Course-Schedule-II-1.png)
 
 **Code Implementation**
 
@@ -170,7 +170,7 @@ indegrees.forEach((indegree, index) => {
 
 ### Illustration
 
-![CourseSchedule2.png](/images/210-Course-Schedule-II-2.png)
+![CourseSchedule2.png](./images/210-Course-Schedule-II-2.png)
 
 ### Step By Step Breakdown
 

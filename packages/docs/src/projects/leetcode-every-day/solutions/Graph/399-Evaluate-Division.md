@@ -53,7 +53,7 @@ equations.forEach(([left, right], index) => {
 
 ### Illustration
 
-![EvaluateDivision.png](/images/399-Evaluate-Division.png)
+![EvaluateDivision.png](./images/399-Evaluate-Division.png)
 
 ### Implement the Helper Function `dfs(from, to, visited)`
 

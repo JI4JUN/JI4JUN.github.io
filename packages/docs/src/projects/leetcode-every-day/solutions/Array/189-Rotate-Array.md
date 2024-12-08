@@ -45,7 +45,7 @@ function rotate(nums: number[], k: number): void {
 
 ### **Illustration**
 
-![RotateArray.png](/images/189-Rotate-Array.png)
+![RotateArray.png](./images/189-Rotate-Array.png)
 
 ### Approach Steps
 

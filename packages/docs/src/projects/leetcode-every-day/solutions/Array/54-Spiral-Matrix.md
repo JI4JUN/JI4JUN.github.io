@@ -34,7 +34,7 @@ Base on the description of this problem, we convert returning all elements of th
 
 In the last iteration, it may not complete a full “circle” counterclockwise.
 
-![SpiralMarix1.png](/images/54-Spiral-Matrix.png)
+![SpiralMarix1.png](./images/54-Spiral-Matrix.png)
 
 We can find there are 4 cases of last iteration after observing the illustration:
 

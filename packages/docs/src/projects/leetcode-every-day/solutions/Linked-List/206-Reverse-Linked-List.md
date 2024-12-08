@@ -26,7 +26,7 @@ To solve this problem, we donâ€™t need to insert or delete node, just need to ke
 
 ### **Illustration**
 
-![ReverseLinkedList](/images/206-Reverse-Linked-List-1.png)
+![ReverseLinkedList](./images/206-Reverse-Linked-List-1.png)
 
 Base on the above illustration, we can summarize an approach process:
 
@@ -72,7 +72,7 @@ Here introduce another in-place reversal method, which involves dummy node and â
 
 ### **Illustration**
 
-![ReverseLinkedList2.png](/images/206-Reverse-Linked-List-2.png)
+![ReverseLinkedList2.png](./images/206-Reverse-Linked-List-2.png)
 
 ### Step By Step Breakdown
 

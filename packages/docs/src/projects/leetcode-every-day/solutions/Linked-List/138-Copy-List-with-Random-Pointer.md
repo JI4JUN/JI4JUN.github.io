@@ -100,7 +100,7 @@ In order to enable the original list to simulate the functionality of the hash m
 
 **Illustration**
 
-![CopyListwithRandomPointer1.png](/images/138-Copy-List-with-Random-Pointer-1.png)
+![CopyListwithRandomPointer1.png](./images/138-Copy-List-with-Random-Pointer-1.png)
 
 ### Setting Random Pointers
 
@@ -108,7 +108,7 @@ Based on the mapping relationship, we can set the copy node’s `random` pointer
 
 **Illustration**
 
-![CopyListwithRandomPointer2.png](/images/138-Copy-List-with-Random-Pointer-2.png)
+![CopyListwithRandomPointer2.png](./images/138-Copy-List-with-Random-Pointer-2.png)
 
 ### Separating Lists And Setting Next Pointers
 
@@ -116,7 +116,7 @@ At this point, we still need the final step, which is to separate the original l
 
 **Illustration**
 
-![CopyListwithRandomPointer3.png](/images/138-Copy-List-with-Random-Pointer-3.png)
+![CopyListwithRandomPointer3.png](./images/138-Copy-List-with-Random-Pointer-3.png)
 
 ### Step By Step Breakdown
 

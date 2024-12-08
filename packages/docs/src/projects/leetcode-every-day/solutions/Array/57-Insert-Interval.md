@@ -28,7 +28,7 @@ To understand the description of this problem, we can imagine that given interva
 
 There are four situations where the “snake interval” and the “food interval” intersect, and the growth process is shown in the following figure.
 
-![InsertInterval.png](/images/57-Insert-Interval.png)
+![InsertInterval.png](./images/57-Insert-Interval.png)
 
 We can use one judgment condition to detect these four situations:
 

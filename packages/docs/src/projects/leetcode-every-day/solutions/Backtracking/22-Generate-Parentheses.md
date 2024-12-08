@@ -32,7 +32,7 @@ We can combine [47 **Permutations II**](https://www.notion.so/47-Permutations-II
 
 ### Space-State Tree
 
-![GenerateParentheses](/images/22-Generate-Parentheses.png)
+![GenerateParentheses](./images/22-Generate-Parentheses.png)
 
 ### Initialization
 

@@ -28,7 +28,7 @@ For avoiding duplicates, we need to use an array to mark the taken elements.
 
 ### Recursion Tree
 
-![approach](/images/46-Permutations-1.png)
+![approach](./images/46-Permutations-1.png)
 
 ### Recursive Backtracking
 
@@ -84,7 +84,7 @@ function permute(nums: number[]): number[][] {
 
 ### Recursion Tree
 
-![optimized_approach](/images/46-Permutations-2.png)
+![optimized_approach](./images/46-Permutations-2.png)
 
 ### Recursive Backtracking
 

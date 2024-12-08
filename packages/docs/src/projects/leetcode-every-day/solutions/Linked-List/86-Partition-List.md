@@ -26,7 +26,7 @@ To partition the given linked list into two partitions (”less than `x` list”
 
 ### Illustration
 
-![PartitionList.png](/images/86-Partition-List.png)
+![PartitionList.png](./images/86-Partition-List.png)
 
 ### Step By Step Breakdown
 

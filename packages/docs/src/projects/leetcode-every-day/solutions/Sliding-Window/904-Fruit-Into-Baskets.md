@@ -26,7 +26,7 @@ In short, the description of this problem is to find the longest subarray which 
 
 ### Illustration
 
-![FruitIntoBaskets](/images/904-Fruit-Into-Baskets.png)
+![FruitIntoBaskets](./images/904-Fruit-Into-Baskets.png)
 
 ### Sliding Window Approach
 

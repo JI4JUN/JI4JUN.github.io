@@ -26,7 +26,7 @@ The goal of this problem is to find the minimum window substring of the given st
 
 ### **Illustration**
 
-![MinimumWindowSubstring](/images/76-Minimum-Window-Substring.png)
+![MinimumWindowSubstring](./images/76-Minimum-Window-Substring.png)
 
 ### Valid Window Check
 

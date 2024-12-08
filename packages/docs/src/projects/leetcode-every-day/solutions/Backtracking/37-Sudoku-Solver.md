@@ -30,7 +30,7 @@ We will only focus on the third constraint checking:
 
 - Each of the digits `1-9` must occur exactly once in each of the 9 `3x3` sub-boxes of the grid.
 
-    ![SudokuSolver](/images/37-Sudoku-Solver.png)
+    ![SudokuSolver](./images/37-Sudoku-Solver.png)
 
 
 To check the validation of digit’s sub-box, we first need to figure out the coordinate of the top left corner of this sub-box by the coordinate of digit `(row, col)` .

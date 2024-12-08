@@ -26,7 +26,7 @@ To merge two sorted array, we can quickly think of using two pointers to compare
 
 ### Illustration
 
-![MergeSortedArray.png](/images/88-Merge-Sorted-Array.png)
+![MergeSortedArray.png](./images/88-Merge-Sorted-Array.png)
 
 ### **Approach Steps**
 
